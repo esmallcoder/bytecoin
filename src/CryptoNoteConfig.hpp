@@ -78,7 +78,7 @@ const char CRYPTONOTE_BLOCKS_FILENAME[]       = "blocks.bin";
 const char CRYPTONOTE_BLOCKINDEXES_FILENAME[] = "blockindexes.bin";
 }  // parameters
 
-const char CRYPTONOTE_NAME[] = "bytecoin";
+const char CRYPTONOTE_NAME[] = "smcoin";
 
 const uint8_t CURRENT_TRANSACTION_VERSION = 1;
 
@@ -103,10 +103,10 @@ const uint32_t P2P_DEFAULT_CONNECTION_TIMEOUT            = 5000;           // 5 
 const uint32_t P2P_DEFAULT_PING_CONNECTION_TIMEOUT       = 2000;           // 2 seconds
 const uint32_t P2P_DEFAULT_INVOKE_TIMEOUT                = 60 * 2 * 1000;  // 2 minutes
 const uint32_t P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT      = 5000;           // 5 seconds
-const char P2P_STAT_TRUSTED_PUB_KEY[] = "E29507CA55455F37A3B783EE2C5123B8B6A34A0C5CAAE050922C6254161480C1";
+const char P2P_STAT_TRUSTED_PUB_KEY[] = "0000000000000000000000000000000000000000000000000000000000000000";
 
 const char *const SEED_NODES[] = {
-    "207.246.127.160:8080", "108.61.174.232:8080", "45.32.156.183:8080", "45.76.29.96:8080"};
+    "207.246.127.160:8080"};
 
 struct CheckpointData {
 	uint32_t index;
